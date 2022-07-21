@@ -1,0 +1,60 @@
+@import "mixins/variables";
+
+// Import editor themes
+@import "mixins/editor/editor";
+
+@import "~bootstrap/scss/bootstrap";
+
+@import "mixins/scrollbar";
+@import "mixins/colors";
+@import "mixins/fonts";
+@import "mixins/safari";
+
+html, body {
+  background: #EEE;
+  overflow: hidden;
+  position: relative;
+}
+
+body {
+  height: 100%;
+}
+
+.cursor-default {
+  cursor: default !important;
+}
+
+.clickable {
+  cursor: pointer;
+  //transition: .1s ease-out;
+  //transition-property: color, background, opacity;
+}
+
+//.clickable:hover {
+//  transition: .2s ease-out;
+//}
+
+.grabbable {
+  cursor: grabbing !important;
+}
+
+.clickable::selection, .grabbable.selection {
+  background: none;
+}
+
+.clickable, .noselect {
+  user-select: none;
+}
+
+.very-small {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+}
+
+::selection {
+  background: #AAA;
+}
+
+::placeholder {
+  color: $text-muted;
+}

@@ -1,0 +1,21 @@
+{
+  "short_name": "Gitshock Edgeware",
+  "name": "Gitshock Edgeware | Platform Building Smart Contract Without Codings.",
+  "description": "Smart Contract Drag-And-Drop Editor for EVM.",
+  "icons": [
+    {
+      "src": "img/favicon/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "img/favicon/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#1c1c1c",
+  "background_color": "#ffffff"
+}
